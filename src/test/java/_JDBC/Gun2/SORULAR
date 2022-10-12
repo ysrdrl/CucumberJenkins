@@ -1,0 +1,18 @@
+//SORU 1:getTable için yaptığın örneğin aynısını, bir XML file'den
+     sorguyu parametre olarak göndererek bir test için yazın.
+
+   SORU 2: Actor tablosundaki tüm verileri yeni excele yazdırınız.
+
+
+
+   Bu bilgilerin yerleşeceği tabloyu kendi DB nizde MySQL arayüzünden
+   oluşturup. Burada JDBC üserinden aşağıdaki bilgileri okuyarak.
+   tabloya insert ediniz. (JDBC Mysql insert komutunun nasıl çalıştırılacağı
+   internetten araştırılacak.)
+    SORU 3: Bir excelde aşağıdaki bilgiler vardır;
+    No    ,    Ad     ,    Soyad  ,   Telefon
+    1         Yaşar       DERELİ      05555555555
+    2         İsmet       Temur       05344444444
+    3         Mehmet      YILMAZ      05333333333
+    4         Ayşe        YILDIZ      05311111111
+    5         Ali         VELİ        05388888888
