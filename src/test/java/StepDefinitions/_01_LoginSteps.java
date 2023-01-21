@@ -10,18 +10,22 @@ import io.cucumber.java.en.When;
 public class _01_LoginSteps {
     @Given("Navigate to basqar")
     public void navigateToBasqar() {
-        GWD.getDriver().get("https://demo.mersys.io/");
+        GWD.getDriver().get("https://test.mersys.io/");
         GWD.getDriver().manage().window().maximize();
     }
-    DialogContent dc=new DialogContent();
+
+    DialogContent dc = new DialogContent();
+
     @When("Enter username and password and click login button")
     public void enterUsernameAndPasswordAndClickLoginButton() {
-        dc.findAndSend("username","richfield.edu");
-        dc.findAndSend("password","Richfield2020!");
+        dc.findAndSend("username", "turkeyts");
+        dc.findAndSend("password", "TechnoStudy123");
         dc.findAndClick("loginButton");
     }
+
     @Then("User should login successfuly")
     public void userShouldLoginSuccessfuly() {
-        dc.findAndContainsText("dashBoard","Dashboard");
+
+        dc.findAndContainsText("dashBoard", "Dashboard");
     }
 }
